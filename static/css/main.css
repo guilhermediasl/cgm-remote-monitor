@@ -130,11 +130,11 @@ a, a:visited, a:link {
 }
 
 #container.alarming.urgent .customTitle {
-  color: red;
+  color: #FF6B6B;
 }
 
 #container.alarming.warning .customTitle {
-  color: yellow;
+  color: #F4F749;
 }
 
 .primary {
@@ -152,15 +152,15 @@ a, a:visited, a:link {
 }
 
 .urgent .bgButton {
-  color: red;
+  color: #FF6B6B;
 }
 
 .warning .bgButton {
-  color: yellow;
+  color: #f4f749;
 }
 
 .inrange .bgButton {
-  color: #4cff00;
+  color: #36bb8a;
 }
 
 .bgStatus .bgSpan {
@@ -235,25 +235,25 @@ a, a:visited, a:link {
 }
 
 .container .pill.warn em {
-  color: yellow;
+  color: #F4F749;
 }
 
 .container .pill.urgent em {
-  color: red;
+  color: #FF6B6B;
 }
 
 .alarming-timeago .timeago.pill.warn {
-  border-color: yellow;
+  border-color: #F4F749;
 }
 .alarming-timeago .timeago.pill.warn label {
-  background: yellow;
+  background: #F4F749;
 }
 
 .alarming-timeago .timeago.pill.urgent {
-  border-color: red;
+  border-color: #FF6B6B;
 }
 .alarming-timeago .timeago.pill.urgent label {
-  background: red;
+  background: #FF6B6B;
 }
 
 .bgStatus.current .currentBG {
@@ -375,11 +375,11 @@ a, a:visited, a:link {
 }
 
 .alarming.urgent .bgButton {
-  background-color: red;
+  background-color: #FF6B6B;
 }
 
 .alarming.warning .bgButton {
-  background-color: yellow;
+  background-color: #F4F749;
 }
 
 .alarming .bgButton:active {
